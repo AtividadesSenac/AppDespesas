@@ -7,10 +7,20 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="milton.appdespesas.MainActivity">
+    tools:context="View.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/etxt_fromdate"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_weight=".5"
+        android:hint="@string/from_date" />
+
+    <EditText
+        android:id="@+id/etxt_todate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".5"
+        android:hint="@string/to_date" />
+
 </RelativeLayout>
