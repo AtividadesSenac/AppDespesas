@@ -7,8 +7,15 @@
     <string name="date_view_set">The Date is: </string>
     <string name="date_selected"></string>
 
+    <string name="label_orc_periodo">ORÇ. POR PERÍODO: </string>
+    <string name="label_despesas">DESPESAS: </string>
+    <string name="label_total">TOTAL: </string>
+
+
     <string name="dt_inicio">Data Início:</string>
     <string name="dt_final">Data Final:</string>
+
+    <string name="btn_buscar">BUSCAR</string>
 
 
 </resources>
