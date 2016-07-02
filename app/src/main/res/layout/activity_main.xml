@@ -9,18 +9,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="view.MainActivity">
 
-    <EditText
-        android:id="@+id/etxt_fromdate"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight=".5"
-        android:hint="@string/from_date" />
+    <include layout="@layout/content_main" />
 
-    <EditText
-        android:id="@+id/etxt_todate"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight=".5"
-        android:hint="@string/to_date" />
 
 </RelativeLayout>
